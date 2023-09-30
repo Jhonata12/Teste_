@@ -1,3 +1,6 @@
+/*_________________________________________________________________________________________________________________*/
+
+
 header{
     width: auto;
     height: 40px;
@@ -7,17 +10,30 @@ header{
     border-radius: 15px;
 }
 
+
+/*_________________________________________________________________________________________________________________*/
+
+
 body{
     background-color: black ;
 }
 
+
+/*_________________________________________________________________________________________________________________*/
+
+
+
 .box01{
     width: auto;
     height: 500px;
-    background-color: #0062a3;
+    background-color: rgba(0, 70, 110, 0.486);
     border-radius: 15px;
-    
+    margin-top: 50px;
+    margin-left: 50px;
+
 }
+
+/*_________________________________________________________________________________________________________________*/
 
 .V1{
     display: flex;
@@ -27,38 +43,93 @@ body{
 
 
 video{
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 15px;
     border: solid 2px;
     border-color: #0062a36c;
-  
+
 }
 
-h1{
+h1{ 
     text-align: center;
     color: #FFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+/*_________________________________________________________________________________________________________________*/
+
+.text2{
+  width: auto;
+  margin-bottom: -150px;
+  margin-left: 5px;
+  border:solid 2px rgb(129, 129, 129) ;
+  background-color: rgb(0, 84, 136);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-top: 150px;
 
 }
 
 .caixa{
     width: auto;
-    height: 250px;
+    height: 300px;
     background-color: rgba(0, 162, 255, 0.486);
     margin: 4rem, auto,0,auto;
     margin-left: 5px;
     margin-top: 150px;
     display: flex;
     overflow-x: auto;
-    border-radius: 25px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+     
   }
 
   img{
     width: 200px;
     margin-top: 25px;
     margin: 30px;
-  }
+    margin-top: 10px;
+  }  
 
+/*_________________________________________________________________________________________________________________*/
+
+
+  .caixa2{
+    width: auto;
+    height: 600px;
+    background-color: rgba(0, 162, 255, 0.486);
+    margin: 4rem, auto,0,auto;
+    margin-left: 5px;
+    margin-top: 150px;
+    display: flex;
+    overflow-x: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; 
+   }
+
+  h2{ 
+    margin-top: 7px !important;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+
+.text{
+  width: auto;
+  margin-top: 150px;
+  margin-bottom: -150px;
+  margin-left: 5px;
+  border:solid 2px rgb(129, 129, 129) ;
+  background-color: rgb(0, 84, 136);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+
+}
+/*_________________________________________________________________________________________________________________*/
 
 
 
@@ -107,9 +178,9 @@ h1{
     margin-top: 5px;
     margin-left: 15px;
     background-color: rgba(0, 255, 255, 0.137);
-    border-radius: 10px;
     margin: 35px;
     margin-left: 42px;
+    margin-top: -13px;
   }
 
   .btn-one {
@@ -168,9 +239,9 @@ h1{
 
 footer{
     width: auto;
-    height: 25px;
+    height: 30px;
     background-color: #0062a3;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: -20px;
     border-radius: 15px;
 }
